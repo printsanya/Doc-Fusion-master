@@ -1,0 +1,33 @@
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Output folders
+OP/
+OUTPUT/
+extracted/
+latex-output/
+
+# Milvus, Minio storage
+volumes/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# LaTeX output files
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
